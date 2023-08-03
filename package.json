@@ -1,13 +1,13 @@
 {
-  "name": "example-case",
+  "name": "rouxinoiz",
   "version": "1.0.0",
-  "description": "Contoh case dari website api zeeoneofc.",
+  "description": "WhatsApp chatbot for ROUXINOIZ.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs"
   },
-  "author": "Zeeoneofc",
+  "author": "iqbaleditzz",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys" : "npm:baileys-md@^5.0.5",
